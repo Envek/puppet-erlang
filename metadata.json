@@ -1,0 +1,38 @@
+{
+  "author": "Andrey Novikov",
+  "dependencies": [
+  	{"name":"puppetlabs/apt","version_requirement":">= 1.0.0 <2.0.0"}
+  ],
+  "license": "MIT",
+  "name": "Envek-erlang",
+  "operatingsystem_support": [
+  	{
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease":[
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "project_page": "https://github.com/Envek/puppet-erlang",
+  "source": "https://github.com/Envek/puppet-erlang.git",
+  "project_page": "https://github.com/Envek/puppet-erlang",
+  "issues_url": "https://github.com/Envek/puppet-erlang/issues",
+  "summary": "Installs latest Erlang from Erlang Solutions repositories",
+  "tags": ["erlang", "ubuntu", "centos", "erlang-solutions"],
+  "version": "0.1.0"
+}
